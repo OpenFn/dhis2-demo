@@ -1,9 +1,8 @@
 post(
-  '/myendpoint',
+  '/api/33/metadata',
   {
-    body: { foo: 'bar' },
-    headers: { 'content-type': 'json' },
-    authentication: { username: 'user', password: 'pass' },
+    body: state.data,
+    headers: { 'content-type': 'application/json' },
   },
   function(state) {
     return state;
