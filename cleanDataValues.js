@@ -1,4 +1,1 @@
-alterState(state => {
-  
-  return state;
-});
+// Your job goes here.
