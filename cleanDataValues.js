@@ -5,7 +5,7 @@ alterState(state => {
     .concat()
     .sort((a, b) => a - b);
 
-  console.log('Intial array length: ' + values.length);
+  console.log('Intial count of dataValues from dhis2: ' + values.length);
 
   // Then find a generous IQR. This is generous because if (values.length / 4)
   // is not an int, then really you should average the two elements on either
