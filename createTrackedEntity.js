@@ -26,7 +26,7 @@ createTEI({
           "orgUnit": "g8upMTyEZGZ",
           "program": "IpHINAT79UW", //enroll in COVID-19 program
           "enrollmentDate": dataValue("received_on")(state).substring(0,9),
-          "incidentDate": ataValue("metadata.timeStart")(state).substring(0,9)
+          "incidentDate": dataValue("metadata.timeStart")(state).substring(0,9)
        }
      ]
   })
