@@ -10,7 +10,7 @@ createTEI({
       {
         "attribute": "zDhUuAYrxNC", // LastName attribute
         "value": dataValue("form.case.update.patient_family_name")(state)
-      },
+      }/*,
       {
         "attribute": "h5FuguPFF2j", // Case Id
         "value": dataValue("id")(state)
@@ -18,7 +18,7 @@ createTEI({
       {
         "attribute": "KdQqUHPqlqM", // Case Status
         "value": dataValue("form.case.update.patient_case_status")(state)
-      }
+      }*/
 
     ],
     "enrollments": [
