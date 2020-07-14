@@ -1,0 +1,78 @@
+{
+  "__query_params": {},
+  "app_id": "fdebe34cd56645ccad72bb606cfb4368",
+  "archived": false,
+  "attachments": {
+    "form.xml": {
+      "content_type": "text/xml",
+      "length": 1982,
+      "url": "https://www.commcarehq.org/a/commcare-demo-2035/api/form/attachment/f70831ae-863f-4a20-909f-e0ffacebd85e/form.xml"
+    }
+  },
+  "build_id": null,
+  "domain": "commcare-demo-2035",
+  "edited_by_user_id": null,
+  "edited_on": null,
+  "form": {
+    "#type": "data",
+    "@name": "Register COVID-19 Case",
+    "@uiVersion": "1",
+    "@version": "2",
+    "@xmlns": "http://openrosa.org/formdesigner/158EB23A-DCFF-4680-90DA-A52D95628A8C",
+    "case": {
+      "@case_id": "4f5ac5a4-b624-4d0d-8a50-73500d1862c5",
+      "@date_modified": "2020-04-21T18:52:00.482000Z",
+      "@user_id": "cbc657317f74c7711d167f916afcf966",
+      "@xmlns": "http://commcarehq.org/case/transaction/v2",
+      "update": {
+        "patient_case_status": "confirmed",
+        "patient_family_name": "Jawara",
+        "patient_first_name": "Bakary",
+        "patient_name_last_first": "Jawara, Bakary",
+        "unique_case_id": "BDJIJRW"
+      }
+    },
+    "consent_list": {
+      "consent_confirmation": "yes"
+    },
+    "meta": {
+      "@xmlns": "http://openrosa.org/jr/xforms",
+      "appVersion": "Formplayer Version: 2.47",
+      "app_build_version": null,
+      "commcare_version": null,
+      "deviceID": "Formplayer",
+      "drift": "0",
+      "geo_point": null,
+      "instanceID": "f70831ae-863f-4a20-909f-e0ffacebd85e",
+      "timeEnd": "2020-04-21T18:52:00.482000Z",
+      "timeStart": "2020-04-21T18:51:06.456000Z",
+      "userID": "cbc657317f74c7711d167f916afcf966",
+      "username": "aleksa@openfn.org"
+    }
+  },
+  "id": "f70831ae-863f-4a20-909f-e0ffacebd85e",
+  "indexed_on": "2020-04-21T18:52:01.323139",
+  "initial_processing_complete": true,
+  "is_phone_submission": true,
+  "metadata": {
+    "appVersion": "Formplayer Version: 2.47",
+    "app_build_version": null,
+    "commcare_version": null,
+    "deviceID": "Formplayer",
+    "drift": "0",
+    "geo_point": null,
+    "instanceID": "f70831ae-863f-4a20-909f-e0ffacebd85e",
+    "location": null,
+    "timeEnd": "2020-04-21T18:52:00.482000Z",
+    "timeStart": "2020-04-21T18:51:06.456000Z",
+    "userID": "cbc657317f74c7711d167f916afcf966",
+    "username": "aleksa@openfn.org"
+  },
+  "problem": null,
+  "received_on": "2020-04-21T18:52:00.654283Z",
+  "resource_uri": "",
+  "server_modified_on": "2020-04-21T18:52:00.820344Z",
+  "type": "data",
+  "uiversion": "1",
+  "version": "2"
+}
