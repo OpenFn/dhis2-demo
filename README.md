@@ -3,7 +3,7 @@ OpenFn sample jobs for automating DHIS2 data and metadata integration. These job
 
 **For more examples**, check out [OpenFn Docs](https://docs.openfn.org/).
 
-**Questions?** Post on the [OpenFn Forum](https://groups.google.com/forum/#!forum/openfn)
+**Questions?** Post on the [OpenFn Forum](https://groups.google.com/forum/#!forum/openfn). 
 
 ## DHIS2 integration notes
 - Every DHIS2 implementation is unique! How we can integrate depends on the version and configuration, so continuous testing is important. 
