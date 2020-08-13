@@ -1,7 +1,7 @@
 # dhis2-demo
 OpenFn sample jobs for automating DHIS2 data and metadata integration. These jobs either language the OpenFn adaptors [language-dhis2](https://github.com/OpenFn/language-dhis2) or [language-http](https://github.com/OpenFn/language-http). 
 
-**Questions?** Post on the OpenFn Forum: https://groups.google.com/forum/#!forum/openfn
+**Questions?** Post on the [OpenFn Forum](https://groups.google.com/forum/#!forum/openfn)
 
 ## DHIS2 integration notes
 - Every DHIS2 implementation is unique! How we can integrate depends on the version and configuration, so continuous testing is important. 
