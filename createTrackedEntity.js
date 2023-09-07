@@ -1,7 +1,7 @@
 //Sample job to create Tracked Entity Instance and Enroll in a Program
 createTEI({
-    "trackedEntityType": "nEenWmSyUEp",
-    "orgUnit": "g8upMTyEZGZ",
+    "trackedEntityType": "nEenWmSyUEp", //default TEI type configured in DHIS2 play
+    "orgUnit": "g8upMTyEZGZ", //Njandama MCHP
     "attributes": [
       {
         "attribute": "w75KJ2mc4zz", // Attribute Id for FirstName in DHIS2
@@ -23,8 +23,8 @@ createTEI({
     ],
     "enrollments": [
       {
-          "orgUnit": "g8upMTyEZGZ",
-          "program": "IpHINAT79UW", //enroll in COVID-19 program
+          "orgUnit": "g8upMTyEZGZ", //Njandama MCHP
+          "program": "IpHINAT79UW", //enroll in Child Programme
           "enrollmentDate": dataValue("received_on")(state).substring(0,9),
           "incidentDate": dataValue("metadata.timeStart")(state).substring(0,9)
        }
